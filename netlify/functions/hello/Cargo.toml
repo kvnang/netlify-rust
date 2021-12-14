@@ -12,3 +12,8 @@ lambda_runtime = "0.3.0"
 log = "0.4.14"
 simple_logger = "1.11.0"
 tokio = "1.6.1"
+image = "0.23.14"
+base64 = "0.13.0"
+reqwest = { version = "0.11.7", features = [ "json" ]}
+chromiumoxide = { git = "https://github.com/mattsse/chromiumoxide", features = ["tokio-runtime"], default-features = false, branch = "main"}
+futures = "0.3.18"
